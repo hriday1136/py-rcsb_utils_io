@@ -484,7 +484,7 @@ class IoUtil(object):
             raiseExceptions = kwargs.get("raiseExceptions", True)
             applyTypes = kwargs.get("applyTypes", True)
             useAutoDetect = kwargs.get("useAutoDetect", True)
-            useFloat64 = kwargs.get("useFloat64", True)
+            useFloat64 = kwargs.get("useFloat64", True)              # Note: This constraint is set to False as default in IoAdapterPy in the py-mmcif package.
             useStringTypes = kwargs.get("useStringTypes", False)
             copyInputData = kwargs.get("copyInputData", False)
             #
